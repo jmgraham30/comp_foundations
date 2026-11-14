@@ -13,7 +13,8 @@ quarto preview
 1. Create `tutorials/NN-topic-name.qmd` (zero-padded number, lowercase, hyphens).
 2. Include learning goals, worked examples, exercises, and a short "check your understanding" section.
 3. Link it from the topic table in `README.md`, and add it to the sidebar in `_quarto.yml` if desired.
-4. If the tutorial needs packages, record them with `uv add` / `renv::snapshot()` in a project-level environment.
+4. If a [companion resource](README.md#companion-resources) has a relevant chapter, add a "Further reading" box at the end linking to it (link only to pages that exist).
+5. If the tutorial needs packages, record them with `uv add` / `renv::snapshot()` in a project-level environment.
 
 ## Reporting problems
 

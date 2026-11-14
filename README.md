@@ -85,7 +85,18 @@ This is the planned syllabus. Items link to tutorials as they are written; unlin
 | 20 | Bayesian computation (brms/Stan, PyMC) | Elective | *planned* |
 | 21 | SQL basics; working on remote servers and HPC clusters | Elective | *planned* |
 
-*Topics will be reordered and refined as the materials are written.*
+*Topics will be reordered and refined as the materials are written. Tutorials will point to related chapters in the [companion resources](#companion-resources) where helpful.*
+
+## Companion resources
+
+Two related projects by the same author cover the *statistics* side of what you will practice here. They are **optional**: this repository is designed to stand on its own and be worked through in order, and you do not need either one to complete it. Use them as further reading, or as a place to look something up.
+
+| Resource | What it is | Good for |
+|---|---|---|
+| [Stats Field Guide](https://stats-field-guide.netlify.app/) | A quick-reference guide to statistics and R for biology and neuroscience students; a look-up reference, not a textbook | Choosing a method, experimental design and power, permutation and bootstrap, reporting results |
+| [Regression Models in R](https://regression-strategies.netlify.app/) | A Quarto book of self-study and reference notes on regression models, each in frequentist and Bayesian form (R only) | Linear models, GLMs, mixed models, GAMs, and Bayesian modeling with brms |
+
+Where they are relevant, individual tutorials end with a "Further reading" box pointing to specific chapters. Note that **setup instructions in this repository are the current ones**; if the other sites give different installation steps, follow the guides here.
 
 ## Project and expectations
 
