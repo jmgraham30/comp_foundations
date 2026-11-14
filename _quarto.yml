@@ -1,0 +1,39 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - index.qmd
+    - README.md
+    - CONTRIBUTING.md
+    - LICENSE.md
+    - docs/*.md
+    - tutorials/*.qmd
+
+website:
+  title: "Computational Foundations"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: tutorials/index.qmd
+        text: Tutorials
+  sidebar:
+    - title: "Guides"
+      contents:
+        - text: "Mac setup"
+          href: docs/01-setup-mac.md
+        - text: "Windows setup"
+          href: docs/01-setup-windows.md
+        - text: "File system and projects"
+          href: docs/02-filesystem-and-projects.md
+        - text: "Python environments"
+          href: docs/03-python-environments.md
+        - text: "R packages"
+          href: docs/04-r-packages.md
+        - text: "Using AI responsibly"
+          href: docs/05-using-ai-responsibly.md
+
+format:
+  html:
+    theme: cosmo
+    toc: true

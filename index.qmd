@@ -1,0 +1,5 @@
+---
+title: "Computational Foundations for Biostatistics and Neuroscience"
+---
+
+{{< include README.md >}}
